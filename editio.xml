@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://digitallatin.github.io/guidelines/critical-editions.rng"
+            type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://digitallatin.github.io/guidelines/critical-editions.rng"
+            type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition">
+            <div type="textpart" xml:id="flumina">
+               <head>Flumina</head>
+               <p n="1">Achelous, Aetoliae, primus erupisse terram dicitur.</p>
+               <p n="2">Arar, Germaniae, e vogeso monte. miscetur Rhodano. ita lene decurrit, ut vix intellegi possit decursus eius.</p>
+               <p n="3">Amphrysus, Thessaliae, ubi Apollo Admeti pecus fertur pavisse.</p>
+               <p n="4">Alpheus, Elidis, qui per mare decurrens in Siciliam insulam, Arethusae fonti miscetur.</p>
+               <p n="5">Ascanius, Mysiae.</p>
+               <p n="6">Achates, Siciliae, qui pari nomine lapillos edit, unde gemmae fiunt.</p>
+               <p n="7">Acheron, Inferorum.</p>
+               <p n="8a">Avens, lacui Ve&lt;lino Sab&gt;inorum infunditur.</p>
+               <p n="8b">&lt;Anien&gt;, per Tiburtinorum fines in Tiberim fluit; ab Aniene filio Apollonis.</p>
+               <p n="9">Allia, Salaria via ad mil. XIIII a Roma, ubi Galli victoria sunt potiti de Romanis.</p>
+               <p n="10">Araxes, Armeniae, †Arabiam† a Medis dividit.</p>
+               <p n="11">Atesis, Veronensium, in Padum decurrit.</p>
+               <p n="12">Amasenus, Privernatium.</p>
+               <p n="13">Aufidus, Apuliae, proximus Canusio.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
