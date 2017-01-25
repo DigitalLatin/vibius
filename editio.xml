@@ -18,20 +18,152 @@
       </fileDesc>
    </teiHeader>
    <text>
+      <front>
+         <div type="bibliography">
+            <listWit>
+               <head>Codices</head>
+               <witness xml:id="V"><abbr type="siglum">V</abbr> = codex Vaticanus Latinus 4929<msDesc>
+                     <msIdentifier>
+                        <settlement>Vatican City</settlement>
+                        <repository>Bibliotheca Apostolica Vaticana</repository>
+                        <idno>4929</idno>
+                     </msIdentifier>
+                     <msContents>
+                        <p>ff. 188<hi rend="superscript">r</hi>–195<hi rend="superscript">r</hi>:
+                                 <bibl><author>Vibii Sequestris</author>
+                              <title>De fluminibus, fontibus, lacubus, nemoribus, paludibus,
+                                 montibus, gentibus per litteras libellus</title></bibl></p>
+                     </msContents>
+                     <physDesc>
+                        <handDesc hands="6">
+                           <handNote xml:id="V1"><abbr type="siglum">V<hi rend="superscript"
+                                 >1</hi></abbr> = Corrections by the original copyist.</handNote>
+                           <handNote xml:id="V2"><abbr type="siglum">V<hi rend="superscript"
+                                 >2</hi></abbr> = Corrections made by a contemporary of the original
+                              copyist.</handNote>
+                           <handNote xml:id="V3"><abbr type="siglum">V<hi rend="superscript"
+                                 >3</hi></abbr> = A corrector from the late twelfth or early
+                              thirteenth century.</handNote>
+                           <handNote xml:id="V4"><abbr type="siglum">V<hi rend="superscript"
+                                 >4</hi></abbr> = A hand a little later than V<hi rend="superscript"
+                                 >3</hi>.</handNote>
+                           <handNote xml:id="Vrec"><abbr type="siglum">V<hi rend="superscript"
+                                    >c</hi></abbr> = Unknown corrector.</handNote>
+                        </handDesc>
+                     </physDesc>
+                     <history>
+                        <origin>
+                           <p><origDate notBefore="0850" notAfter="0900">Middle of the ninth
+                                 century</origDate>.</p>
+                        </origin>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Petr."><abbr type="siglum">Petr.</abbr> = F. Petrarcae codex
+                  deperditus</witness>
+               <witness xml:id="Bocc."><abbr type="siglum">Bocc.</abbr> = <bibl><author>I.
+                        Boccaccius de Certaldo</author>
+                     <title>De montibus, sylvis, fontibus, lacubus, fluminibus, stagnis seu
+                        paludibus et de nominibus maris liber</title></bibl>.</witness>
+               <witness xml:id="R"><abbr type="siglum">R</abbr> = codex Vaticanus Reg. Lat. 1477
+                  pars IIa. Dom. 1374</witness>
+               <witness xml:id="A"><abbr type="siglum">A</abbr> = codex Brit. Mus. Addit. 16.986 ff.
+                     42–49<hi rend="superscript">v</hi> saec. XV</witness>
+               <witness xml:id="F"><abbr type="siglum">F</abbr> = codex Florentinus Bibl. Ricc.
+                  1220.3 ff. 3–12<hi rend="superscript">v</hi> saec. XV</witness>
+               <witness xml:id="D"><abbr type="siglum">D</abbr> = codex Vaticanus Reg. Lat. 786
+                  saec. XV</witness>
+               <witness xml:id="N"><abbr type="siglum">N</abbr> = codex Neapolitanus Vetus
+                  Borbonicus 15 saec. XV</witness>
+               <witness xml:id="Tschu."><abbr type="siglum">Tschu.</abbr> = A. Tschudii codex
+                  autographus i.e. Sangallensis 663 chart. 94–102. Tschudius laudatur post Aldi ante
+                  Simleri editionem.</witness>
+            </listWit>
+            <listWit>
+               <head>Early Editions</head>
+               <witness xml:id="Sal."><abbr type="siglum">Sal.</abbr> = <bibl>M. Salius,
+                        <pubPlace>Taurini</pubPlace>
+                     <date>1500</date> (editio princeps)</bibl></witness>
+               <witness xml:id="Maz."><abbr type="siglum">Maz.</abbr> = <bibl>Mazochiana
+                        <pubPlace>Romae</pubPlace>
+                     <date> 1505</date></bibl></witness>
+               <witness xml:id="Sonc."><abbr type="siglum">Sonc.</abbr> = <bibl>Sonciniana
+                        <pubPlace>Pisauri</pubPlace>
+                     <date>1512</date></bibl></witness>
+               <witness xml:id="Ald."><abbr type="siglum">Ald.</abbr> = <bibl>Aldina
+                        <pubPlace>Venetiis</pubPlace>
+                     <date>1518</date></bibl></witness>
+               <witness xml:id="Siml."><abbr type="siglum">Siml.</abbr> = <bibl>I. Simlerus
+                        <pubPlace>Basileae</pubPlace>
+                     <date>1575</date></bibl></witness>
+               <witness xml:id="Hess."><abbr type="siglum">Hess.</abbr> = <bibl>F. Hesselius
+                        <pubPlace>Roterodami</pubPlace>
+                     <date>1711</date></bibl></witness>
+               <witness xml:id="Ober."><abbr type="siglum">Ober.</abbr> = <bibl>I. I. Oberlinus
+                        <pubPlace>Argentorati</pubPlace>
+                     <date>1778</date></bibl></witness>
+            </listWit>
+            <listBibl>
+               <head>Modern Editions</head>
+               <bibl xml:id="Burs."><abbr type="siglum">Burs.</abbr> = C. Bursian
+                     <pubPlace>Turici</pubPlace>
+                  <date>1867</date></bibl>
+               <bibl xml:id="Rie."><abbr type="siglum">Rie.</abbr> = A. Riese
+                     <pubPlace>Heilbronnae</pubPlace>
+                  <date>1878</date> (in G. L. M.)</bibl>
+               <bibl xml:id="Mars."><abbr type="siglum">Mars.</abbr> = A. Marsili
+                     <pubPlace>Pisis</pubPlace>
+                  <date>1960</date></bibl>
+            </listBibl>
+            <listBibl>
+               <head>Secondary Sources</head>
+               <bibl xml:id="Bilinski"/>
+               <bibl xml:id="Caz."/>
+               <bibl xml:id="Cellar."/>
+               <bibl xml:id="Cluver.-Sic"/>
+               <bibl xml:id="Cluver.-It"/>
+               <bibl xml:id="dePauw"/>
+               <bibl xml:id="Gel1"/>
+               <bibl xml:id="Gel2"/>
+               <bibl xml:id="Gel3"/>
+               <bibl xml:id="Gronov."/>
+               <bibl xml:id="Kiess."/>
+               <bibl xml:id="Kowalski"/>
+               <bibl xml:id="Mayer"/>
+               <bibl xml:id="Müller"/>
+               <bibl xml:id="Nissen"/>
+               <bibl xml:id="Norden"/>
+               <bibl xml:id="Ouden."/>
+               <bibl xml:id="Pue."/>
+               <bibl xml:id="Rehm"/>
+               <bibl xml:id="Relan."/>
+               <bibl xml:id="Sittl"/>
+            </listBibl>
+         </div>
+      </front>
       <body>
          <div type="edition">
             <div type="textpart" xml:id="flumina">
-               <head>Flumina</head>
-               <p n="1">Achelous, Aetoliae, primus erupisse terram dicitur.</p>
-               <p n="2">Arar, Germaniae, e vogeso monte. miscetur Rhodano. ita lene decurrit, ut vix intellegi possit decursus eius.</p>
+               <head><app><lem wit="#A #Siml. #Hess. #Ober.">Flumina</lem></app></head>
+               <p n="1" xml:id="achelous">Achelous, Aetoliae, primus erupisse terram dicitur.</p>
+               <note type="parallels"><bibl><author>Verg.</author>
+                     <title>geo.</title> 1.9 (<ref target="#Burs.">Burs.</ref>)</bibl>:
+                     <quote>poculaque … Acheloia";</quote>; cf. <bibl><author>Serv. Auct.</author>
+                     ad loc.</bibl> et <bibl><author>Macr.</author>
+                     <title>satur.</title> 5.18.1–2 praesertim 9</bibl></note>
+               <p n="2">Arar, Germaniae, e vogeso monte. miscetur Rhodano. ita lene decurrit, ut vix
+                  intellegi possit decursus eius.</p>
                <p n="3">Amphrysus, Thessaliae, ubi Apollo Admeti pecus fertur pavisse.</p>
-               <p n="4">Alpheus, Elidis, qui per mare decurrens in Siciliam insulam, Arethusae fonti miscetur.</p>
+               <p n="4">Alpheus, Elidis, qui per mare decurrens in Siciliam insulam, Arethusae fonti
+                  miscetur.</p>
                <p n="5">Ascanius, Mysiae.</p>
                <p n="6">Achates, Siciliae, qui pari nomine lapillos edit, unde gemmae fiunt.</p>
                <p n="7">Acheron, Inferorum.</p>
                <p n="8a">Avens, lacui Ve&lt;lino Sab&gt;inorum infunditur.</p>
-               <p n="8b">&lt;Anien&gt;, per Tiburtinorum fines in Tiberim fluit; ab Aniene filio Apollonis.</p>
-               <p n="9">Allia, Salaria via ad mil. XIIII a Roma, ubi Galli victoria sunt potiti de Romanis.</p>
+               <p n="8b">&lt;Anien&gt;, per Tiburtinorum fines in Tiberim fluit; ab Aniene filio
+                  Apollonis.</p>
+               <p n="9">Allia, Salaria via ad mil. XIIII a Roma, ubi Galli victoria sunt potiti de
+                  Romanis.</p>
                <p n="10">Araxes, Armeniae, †Arabiam† a Medis dividit.</p>
                <p n="11">Atesis, Veronensium, in Padum decurrit.</p>
                <p n="12">Amasenus, Privernatium.</p>
