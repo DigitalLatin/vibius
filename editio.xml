@@ -114,6 +114,7 @@
                <bibl xml:id="Mars."><abbr type="siglum">Mars.</abbr> = A. Marsili
                      <pubPlace>Pisis</pubPlace>
                   <date>1960</date></bibl>
+               <bibl xml:id="Gelsomino"/>
             </listBibl>
             <listBibl>
                <head>Secondary Sources</head>
@@ -134,6 +135,11 @@
                <bibl xml:id="Nissen"/>
                <bibl xml:id="Norden"/>
                <bibl xml:id="Ouden."/>
+               <bibl xml:id="Preller"><abbr type="siglum">Preller</abbr> = <author>Preller,
+                     L.</author>. “<title level="a">Der fluss Avens</title>.” <title level="j"
+                     >Berichte der K. Säches. Gesell. der Wiss. zu Leipzig</title>
+                  <biblScope unit="volume">7</biblScope> (<date>1855)</date>): <biblScope
+                     unit="page">194</biblScope>.</bibl>
                <bibl xml:id="Pue."/>
                <bibl xml:id="Rehm"/>
                <bibl xml:id="Relan."/>
@@ -154,13 +160,13 @@
                      <rdg>Amnes</rdg>
                      <wit>cod. Par. Lat. 8413</wit>
                   </app></head>
-               <p n="1" xml:id="achelous">Achelous, Aetoliae, primus erupisse terram dicitur.</p>
-               <note type="parallels"><bibl><author>Verg.</author>
+               <p n="1" xml:id="f1-achelous">Achelous, Aetoliae, primus erupisse terram dicitur.</p>
+               <note type="parallels" target="#f1-achelous"><bibl><author>Verg.</author>
                      <title>geo.</title> 1.9 (<ref target="#Burs.">Burs.</ref>)</bibl>:
-                     <quote>poculaque … Acheloia";</quote>; cf. <bibl><author>Serv. Auct.</author>
+                     <quote>poculaque … Acheloia";</quote> ; cf. <bibl><author>Serv. Auct.</author>
                      ad loc.</bibl> et <bibl><author>Macr.</author>
                      <title>satur.</title> 5.18.1–2 praesertim 9</bibl></note>
-               <p n="2">Arar, <app>
+               <p n="2" xml:id="f2-arar">Arar, <app>
                      <lem>Germaniae</lem>
                      <rdg wit="#Tschu. #Siml.">Galliae</rdg>
                   </app>, e <app>
@@ -168,6 +174,7 @@
                      <rdg wit="#Sal." source="#Rie.">Vosego</rdg>
                   </app> monte. miscetur Rhodano. ita lene decurrit, ut vix intellegi possit
                   decursus eius.</p>
+               <note type="parallels" target="#f2-arar">Verg. ecl. 1.62 (<ref target="#Petr.">Petr.</ref>): <quote>aut Ararim Parthus bibet aut Germania Tigrim</quote></note><!-- Start here -->
                <p n="3"><app>
                      <lem wit="#F">Amphrysus</lem>
                      <wit>edd. ante <ref target="#Burs.">Burs.</ref></wit>
@@ -176,15 +183,73 @@
                <p n="4">Alpheus, Elidis, qui per mare decurrens in Siciliam insulam, Arethusae fonti
                   miscetur.</p>
                <p n="5">Ascanius, Mysiae.</p>
-               <p n="6">Achates, Siciliae, <app><lem wit="#A" source="#Rie.">qui</lem><rdg wit="#V">ubi</rdg></app> pari nomine lapillos edit, unde gemmae fiunt.</p>
+               <p n="6">Achates, Siciliae, <app>
+                     <lem wit="#A" source="#Rie.">qui</lem>
+                     <rdg wit="#V">ubi</rdg>
+                  </app> pari nomine lapillos edit, unde gemmae fiunt.</p>
                <p n="7">Acheron, Inferorum.</p>
-               <p n="8a">Avens, lacui Ve&lt;lino Sab&gt;inorum infunditur.</p>
-               <p n="8b">&lt;Anien&gt;, per Tiburtinorum fines in Tiberim fluit; ab Aniene filio
-                  Apollonis.</p>
+               <app>
+                  <lem source="#Preller #Burs. #Rie. #Pue. #Mars." xml:id="f8-avens">
+                     <p n="8a"><app>
+                           <lem source="#Preller #Burs. #Rie. #Pue. #Mars.">Avens</lem>
+                           <rdg wit="#V" xml:id="f8a-rdg-aniens">Aniens</rdg>
+                           <witDetail wit="#V" target="#f8a-rdg-aniens" corresp="#f8a-rdg-anien"
+                              type="correction-original"/>
+                           <rdg wit="#Vrec" xml:id="f8a-rdg-anien">Anien</rdg>
+                        </app>, <app>
+                           <lem source="#Gelsomino" type="#emendation">lacui Velino Sabinorum</lem>
+                           <rdg wit="#V">lacus Velinorum</rdg>
+                           <rdg wit="#Siml. #Hess. #Ober." source="#Burs. #Rie. #Mars.">lacui
+                              Velinorum</rdg>
+                           <rdg source="#Tschu. #Mars." xml:id="f8a-rdg-lacu-Velinorum">lacu
+                              Velinorum</rdg>
+                           <note target="#f8a-rdg-lacu-Velinorum">Mars. dubitanter</note>
+                           <rdg source="#Cluver.-It" xml:id="f8a-lacui-Velino">lacui Velino</rdg>
+                           <note target="#f8a-lacui-Velino">1.723</note>
+                        </app> infunditur.</p>
+                     <p n="8b"><app>
+                           <lem source="#Burs. #Rie. #Pue. #Mars." type="emendation">Anien</lem>
+                           <rdg source="#Preller">Anio</rdg>
+                        </app>, <app>
+                           <lem source="#Burs. #Rie.">per Tiburtinorum fines in Tiberim fluit; <app>
+                                 <lem>ab Aniene filio</lem>
+                                 <rdg source="#Burs." xml:id="f8b-rdg-ab-Anio">ab Anio</rdg>
+                                 <note target="#f8b-rdg-ab-Anio">dubitanter coll. Serv. Auct., Diod.
+                                    Sic., Plutar., fortasse recte</note>
+                                 <rdg source="#Rie.">ab Anione</rdg>
+                              </app> Apollonis</lem>
+                           <rdg source="#Preller">ab Aniene filio Apollonis per Tiburtinorum fines
+                              in Tiberim fluit.</rdg>
+                        </app>.</p>
+                  </lem>
+                  <note target="#f8-avens">duos art. subesse cognovit <ref target="#Preller">L.
+                        Preller</ref>, quod receperunt <ref target="#Burs.">Burs.</ref>
+                     <ref target="#Rie">Rie.</ref>
+                     <ref target="#Pue.">Pue.</ref>
+                     <ref target="#Mars.">Mars.</ref></note>
+                  <rdg wit="#V">Anien. lacus velinorum infunditur per tiburtinorum fines. ab aniene
+                     filio apollinis. in tiberim fluit.</rdg>
+               </app>
                <p n="9">Allia, Salaria via ad mil. XIIII a Roma, ubi Galli victoria sunt potiti de
                   Romanis.</p>
-               <p n="10">Araxes, Armeniae, †Arabiam† a Medis dividit.</p>
-               <p n="11">Atesis, Veronensium, in Padum decurrit.</p>
+               <p n="10">Araxes, Armeniae, <app>
+                     <lem><sic>Arabiam</sic></lem>
+                     <rdg wit="#A #F #Tschu. #Siml. #Hess. #Ober." source="#Burs. #Rie."
+                        >Armeniam</rdg>
+                     <rdg source="#Burs." xml:id="f10-rdg-Albaniam">Albaniam</rdg>
+                     <note target="#f10-rdg-Albaniam">dubitanter</note>
+                     <rdg source="#Mars." xml:id="f10-rdg-Amardos">Amardos</rdg>
+                     <note target="#f10-rdg-Amardos">dubitanter</note>
+                  </app> a Medis dividit.</p>
+               <p n="11"><app>
+                     <lem>Atesis</lem>
+                     <rdg wit="#R #A #F">Athesis</rdg>
+                     <wit>edd. perique ante <ref target="#Burs.">Burs.</ref>.</wit>
+                  </app>, Veronensium, <app>
+                     <lem>in Padum</lem>
+                     <rdg source="#Tschu." xml:id="f11-rdg-in-paludes-Padi">in paludes Padi</rdg>
+                     <note target="#f11-rdg-in-paludes-Padi">sed cf. Serv. Auct.</note>
+                  </app> decurrit.</p>
                <p n="12">Amasenus, Privernatium.</p>
                <p n="13">Aufidus, Apuliae, proximus Canusio.</p>
             </div>
