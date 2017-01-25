@@ -144,20 +144,39 @@
       <body>
          <div type="edition">
             <div type="textpart" xml:id="flumina">
-               <head><app><lem wit="#A #Siml. #Hess. #Ober.">Flumina</lem></app></head>
+               <head><app>
+                     <lem wit="#A #Siml. #Hess. #Ober.">Flumina</lem>
+                     <rdg wit="#V">Fluminum</rdg>
+                     <rdg wit="#Sal." source="#Burs. #Rie. #Mars.">Primum Fluminum</rdg>
+                     <rdg wit="#Petr."/>
+                     <wit>recc. aliquot</wit>
+                     <rdg wit="#D #Sal. #Sonc.">De Fluminibus</rdg>
+                     <rdg>Amnes</rdg>
+                     <wit>cod. Par. Lat. 8413</wit>
+                  </app></head>
                <p n="1" xml:id="achelous">Achelous, Aetoliae, primus erupisse terram dicitur.</p>
                <note type="parallels"><bibl><author>Verg.</author>
                      <title>geo.</title> 1.9 (<ref target="#Burs.">Burs.</ref>)</bibl>:
                      <quote>poculaque … Acheloia";</quote>; cf. <bibl><author>Serv. Auct.</author>
                      ad loc.</bibl> et <bibl><author>Macr.</author>
                      <title>satur.</title> 5.18.1–2 praesertim 9</bibl></note>
-               <p n="2">Arar, Germaniae, e vogeso monte. miscetur Rhodano. ita lene decurrit, ut vix
-                  intellegi possit decursus eius.</p>
-               <p n="3">Amphrysus, Thessaliae, ubi Apollo Admeti pecus fertur pavisse.</p>
+               <p n="2">Arar, <app>
+                     <lem>Germaniae</lem>
+                     <rdg wit="#Tschu. #Siml.">Galliae</rdg>
+                  </app>, e <app>
+                     <lem>Vogeso</lem>
+                     <rdg wit="#Sal." source="#Rie.">Vosego</rdg>
+                  </app> monte. miscetur Rhodano. ita lene decurrit, ut vix intellegi possit
+                  decursus eius.</p>
+               <p n="3"><app>
+                     <lem wit="#F">Amphrysus</lem>
+                     <wit>edd. ante <ref target="#Burs.">Burs.</ref></wit>
+                     <rdg wit="#V">Amphrisus</rdg>
+                  </app>, Thessaliae, ubi Apollo Admeti pecus fertur pavisse.</p>
                <p n="4">Alpheus, Elidis, qui per mare decurrens in Siciliam insulam, Arethusae fonti
                   miscetur.</p>
                <p n="5">Ascanius, Mysiae.</p>
-               <p n="6">Achates, Siciliae, qui pari nomine lapillos edit, unde gemmae fiunt.</p>
+               <p n="6">Achates, Siciliae, <app><lem wit="#A" source="#Rie.">qui</lem><rdg wit="#V">ubi</rdg></app> pari nomine lapillos edit, unde gemmae fiunt.</p>
                <p n="7">Acheron, Inferorum.</p>
                <p n="8a">Avens, lacui Ve&lt;lino Sab&gt;inorum infunditur.</p>
                <p n="8b">&lt;Anien&gt;, per Tiburtinorum fines in Tiberim fluit; ab Aniene filio
