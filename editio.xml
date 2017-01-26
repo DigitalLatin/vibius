@@ -160,35 +160,103 @@
                      <rdg>Amnes</rdg>
                      <wit>cod. Par. Lat. 8413</wit>
                   </app></head>
+
                <p n="1" xml:id="f1-achelous">Achelous, Aetoliae, primus erupisse terram dicitur.</p>
                <note type="parallels" target="#f1-achelous"><bibl><author>Verg.</author>
                      <title>geo.</title> 1.9 (<ref target="#Burs.">Burs.</ref>)</bibl>:
                      <quote>poculaque … Acheloia";</quote> ; cf. <bibl><author>Serv. Auct.</author>
                      ad loc.</bibl> et <bibl><author>Macr.</author>
                      <title>satur.</title> 5.18.1–2 praesertim 9</bibl></note>
+
                <p n="2" xml:id="f2-arar">Arar, <app>
                      <lem>Germaniae</lem>
                      <rdg wit="#Tschu. #Siml.">Galliae</rdg>
-                  </app>, e <app>
+                  </app>, <anchor xml:id="f2-e-Vogeso" corresp="#comm-f2-Arar"/>e <app>
                      <lem>Vogeso</lem>
                      <rdg wit="#Sal." source="#Rie.">Vosego</rdg>
                   </app> monte. miscetur Rhodano. ita lene decurrit, ut vix intellegi possit
                   decursus eius.</p>
-               <note type="parallels" target="#f2-arar">Verg. ecl. 1.62 (<ref target="#Petr.">Petr.</ref>): <quote>aut Ararim Parthus bibet aut Germania Tigrim</quote></note><!-- Start here -->
-               <p n="3"><app>
+               <note type="parallels" target="#f2-arar"><bibl><author>Verg.</author>
+                     <title>ecl.</title> 1.62</bibl> (<ref target="#Petr.">Petr.</ref>): <quote>aut
+                     Ararim Parthus bibet aut Germania Tigrim</quote>; cf.
+                        <bibl><author>Serv.</author></bibl>
+                  <quote>Ararim Germaniae flumen … Arar fluvius Galliae fluens in Rhodanum</quote>,
+                        <bibl><title>Schol. Bern.</title></bibl>
+                  <quote>Arar flumen Germaniae, tamen alii dicunt Galliae, in Rhodanum iens</quote>,
+                        <bibl><author>Phil.</author> II</bibl>
+                  <quote>fluvius Germaniae vel Galliae</quote>, <bibl><author>Ansil.</author>
+                     <title>AR</title> 35, 35, 36</bibl>
+                  <quote>Fluvius Germaniae</quote>; cf. <bibl><author>Caes.</author>
+                     <title>b. g.</title> 1.12</bibl></note>
+               <note type="commentary" target="#f2-e-Vogeso" xml:id="comm-f2-Arar">De A. e Vogeso
+                  nemo ante Vibium loquitur.</note>
+
+               <p n="3" xml:id="f3-amphrysus"><cit>
+                     <!-- Beginning the citation of an indirect quotation -->
+                     <ref><!-- Asserted by the editor to be an indirect quotation or paraphrase of Servius. -->
+                        <app>
+                           <lem wit="#F">Amphrysus</lem>
+                           <wit>edd. ante <ref target="#Burs.">Burs.</ref></wit>
+                           <rdg wit="#V">Amphrisus</rdg>
+                        </app>, Thessaliae, ubi Apollo Admeti pecus fertur pavisse. </ref>
+                     <bibl>Serv.</bibl>
+                     <!-- The source of the paraphrase -->
+                     <quote>A. fluvius est Thessaliae, circa quem Apollo Admeto regi pavisse armenta
+                        dicitur</quote>
+                     <!-- The text of the passage in Servius. -->
+                  </cit>
+               </p>
+
+
+               <!-- I could also see doing that entry this way. In fact, I kind of like this approach. It's cleaner. -->
+
+               <p n="3" xml:id="f3a-amphrysus">
+                  <app>
                      <lem wit="#F">Amphrysus</lem>
                      <wit>edd. ante <ref target="#Burs.">Burs.</ref></wit>
                      <rdg wit="#V">Amphrisus</rdg>
-                  </app>, Thessaliae, ubi Apollo Admeti pecus fertur pavisse.</p>
-               <p n="4">Alpheus, Elidis, qui per mare decurrens in Siciliam insulam, Arethusae fonti
-                  miscetur.</p>
-               <p n="5">Ascanius, Mysiae.</p>
-               <p n="6">Achates, Siciliae, <app>
+                  </app>, Thessaliae, ubi Apollo Admeti pecus fertur pavisse. </p>
+               <!-- Entry for the apparatus fontium, using @type="fontium" -->
+               <note type="fontium" target="#f3a-amphrysus"><bibl>Serv.</bibl>
+                  <quote>A. fluvius est Thessaliae, circa quem Apollo Admeto regi pavisse armenta
+                     dicitur</quote> (eadem fere apud ps. Prob., Schol. Bern.)</note>
+
+               <!-- Entry for a list of parallel passages. -->
+               <note type="parallels" target="#f3-amphrysus"><bibl><author>Verg.</author>
+                     <title>geo.</title> 3.2</bibl> (<ref target="#Hess.">Hess.</ref>) (Apollo)
+                     <quote>pastor ab Amphryso</quote></note>
+
+               <p n="4" xml:id="f4-alpheus">Alpheus, Elidis, qui per mare decurrens in Siciliam
+                  insulam, Arethusae fonti miscetur.</p>
+               <note type="parallels" target="#f4-alpheus"><bibl><author>Verg.</author>
+                     <title>geo.</title> 3.19</bibl> (<ref target="#Petr.">Petr.</ref>):
+                     <quote>Alpheum</quote> + <bibl><title>aen.</title> 3.694ss.</bibl></note>
+
+               <p n="5" xml:id="f5-ascanius">Ascanius, Mysiae.</p>
+               <note type="fontium" target="#f5-ascanius"><bibl><author>Verg.</author>
+                     <title>geo.</title> 3.269s</bibl> (<ref target="#Petr.">Petr.</ref>):
+                     <quote>sonantem Ascanium</quote>; cf. <bibl><author>Serv.
+                     Auct.</author></bibl><quote>Ascanius amnis Mysiae</quote></note>
+
+               <p n="6" xml:id="f6-achates">Achates, Siciliae, <app>
                      <lem wit="#A" source="#Rie.">qui</lem>
                      <rdg wit="#V">ubi</rdg>
                   </app> pari nomine lapillos edit, unde gemmae fiunt.</p>
-               <p n="7">Acheron, Inferorum.</p>
-               <app>
+               <note type="parallels" target="#f6-achates">fortasse <bibl><author>Verg.</author>
+                     <title>aen.</title> 1.174</bibl> (<ref target="#Pue.">Pue. p. 25</ref>):
+                     <quote>Achates</quote>; cf. <bibl><author>Serv.</author></bibl>
+                  <quote>adlusit ad nomen, nam achates lapidis species est</quote>, <bibl>C Gl. L.
+                     5.43.17</bibl>: <quote>achates lapis est … in Achate fluvio Siciliae plurimum
+                     nascens</quote>, <bibl><author>Plin.</author>
+                     <title>n. h.</title> 37.10.139</bibl></note>
+
+               <p n="7" xml:id="f7-acheron">Acheron, Inferorum.</p>
+               <note type="fontium" target="#f7-acheron"><bibl><author>Verg.</author>
+                     <title>aen.</title> 6.107</bibl> (<ref target="#Petr.">Petr.</ref>); cf.
+                     <bibl>Serv.</bibl>
+                  <quote>Acheron fluvius dicitur Inferorum … sed constat locum esse …</quote></note>
+
+               <app><!-- Beginning a passage in which one entry in V has been divided into two entries by modern editors. -->
                   <lem source="#Preller #Burs. #Rie. #Pue. #Mars." xml:id="f8-avens">
                      <p n="8a"><app>
                            <lem source="#Preller #Burs. #Rie. #Pue. #Mars.">Avens</lem>
@@ -222,13 +290,13 @@
                               in Tiberim fluit.</rdg>
                         </app>.</p>
                   </lem>
-                  <note target="#f8-avens">duos art. subesse cognovit <ref target="#Preller">L.
-                        Preller</ref>, quod receperunt <ref target="#Burs.">Burs.</ref>
+                  <rdg wit="#V" xml:id="f8-rdg-V" corresp="#comm-f8-V">Anien. lacus velinorum infunditur per tiburtinorum fines. ab aniene
+                     filio apollinis. in tiberim fluit.</rdg>
+                  <note type="commentary" target="#f8-rdg-V">duos art. subesse cognovit <ref target="#Preller">L.
+                     Preller</ref>, quod receperunt <ref target="#Burs.">Burs.</ref>
                      <ref target="#Rie">Rie.</ref>
                      <ref target="#Pue.">Pue.</ref>
                      <ref target="#Mars.">Mars.</ref></note>
-                  <rdg wit="#V">Anien. lacus velinorum infunditur per tiburtinorum fines. ab aniene
-                     filio apollinis. in tiberim fluit.</rdg>
                </app>
                <p n="9">Allia, Salaria via ad mil. XIIII a Roma, ubi Galli victoria sunt potiti de
                   Romanis.</p>
