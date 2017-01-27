@@ -164,21 +164,27 @@
                <p n="1" xml:id="f1-achelous"><placeName
                      ref="https://pleiades.stoa.org/places/530768">Achelous</placeName>, <placeName
                      ref="https://pleiades.stoa.org/places/540591">Aetoliae</placeName>, primus
-                  erupisse terram dicitur.</p>
+                  erupisse terram dicitur.</p>               
                <note type="fontium" target="#f1-achelous"><bibl><author>Verg.</author>
                      <title>geo.</title> 1.9 (<ref target="#Burs.">Burs.</ref>)</bibl>:
                      <quote>poculaque … Acheloia";</quote> ; cf. <bibl><author>Serv. Auct.</author>
                      ad loc.</bibl> et <bibl><author>Macr.</author>
                      <title>satur.</title> 5.18.1–2 praesertim 9</bibl></note>
 
-               <p n="2" xml:id="f2-arar"><placeName ref="https://pleiades.stoa.org/places/167652">Arar</placeName>, <app>
-                  <lem><placeName ref="https://pleiades.stoa.org/places/481844">Germaniae</placeName></lem>
-                  <rdg wit="#Tschu. #Siml."><placeName ref="https://pleiades.stoa.org/places/993">Galliae</placeName></rdg>
+               <p n="2" xml:id="f2-arar"><placeName ref="https://pleiades.stoa.org/places/167652"
+                     >Arar</placeName>, <app>
+                     <lem><placeName ref="https://pleiades.stoa.org/places/481844"
+                           >Germaniae</placeName></lem>
+                     <rdg wit="#Tschu. #Siml."><placeName ref="https://pleiades.stoa.org/places/993"
+                           >Galliae</placeName></rdg>
                   </app>, <anchor xml:id="f2-e-Vogeso" corresp="#comm-f2-Arar"/>e <app>
-                     <lem><placeName ref="https://pleiades.stoa.org/places/109443">Vogeso</placeName></lem>
-                     <rdg wit="#Sal." source="#Rie."><placeName ref="https://pleiades.stoa.org/places/109443">Vosego</placeName></rdg>
-                  </app> monte. miscetur <placeName ref="https://pleiades.stoa.org/places/148168">Rhodano</placeName>. ita lene decurrit, ut vix intellegi possit
-                  decursus eius.</p>
+                     <lem><placeName ref="https://pleiades.stoa.org/places/109443"
+                           >Vogeso</placeName></lem>
+                     <rdg wit="#Sal." source="#Rie."><placeName
+                           ref="https://pleiades.stoa.org/places/109443">Vosego</placeName></rdg>
+                  </app> monte. miscetur <placeName ref="https://pleiades.stoa.org/places/148168"
+                     >Rhodano</placeName>. ita lene decurrit, ut vix intellegi possit decursus
+                  eius.</p>             
                <note type="fontium" target="#f2-arar"><bibl><author>Verg.</author>
                      <title>ecl.</title> 1.62</bibl> (<ref target="#Petr.">Petr.</ref>): <quote>aut
                      Ararim Parthus bibet aut Germania Tigrim</quote>; cf.
@@ -200,7 +206,8 @@
                            <lem wit="#F">Amphrysus</lem>
                            <wit>edd. ante <ref target="#Burs.">Burs.</ref></wit>
                            <rdg wit="#V">Amphrisus</rdg>
-                        </app>, <placeName ref="https://pleiades.stoa.org/places/1332">Thessaliae</placeName>, ubi Apollo Admeti pecus fertur pavisse. </ref>
+                        </app>, <placeName ref="https://pleiades.stoa.org/places/1332"
+                           >Thessaliae</placeName>, ubi Apollo Admeti pecus fertur pavisse. </ref>
                      <bibl>Serv.</bibl>
                      <!-- The source of the paraphrase -->
                      <quote>A. fluvius est Thessaliae, circa quem Apollo Admeto regi pavisse armenta
@@ -216,7 +223,8 @@
                      <lem wit="#F">Amphrysus</lem>
                      <wit>edd. ante <ref target="#Burs.">Burs.</ref></wit>
                      <rdg wit="#V">Amphrisus</rdg>
-                  </app>, <placeName ref="https://pleiades.stoa.org/places/1332">Thessaliae</placeName>, ubi Apollo Admeti pecus fertur pavisse. </p>
+                  </app>, <placeName ref="https://pleiades.stoa.org/places/1332"
+                     >Thessaliae</placeName>, ubi Apollo Admeti pecus fertur pavisse. </p>
 
                <!-- Entry for the apparatus fontium, using @type="fontium" -->
                <note type="fontium" target="#f3a-amphrysus"><bibl>Serv.</bibl>
@@ -227,23 +235,29 @@
                <note type="parallels" target="#f3-amphrysus"><bibl><author>Verg.</author>
                      <title>geo.</title> 3.2</bibl> (<ref target="#Hess.">Hess.</ref>) (Apollo)
                      <quote>pastor ab Amphryso</quote></note>
+               
+               
 
-
-
-
-               <p n="4" xml:id="f4-alpheus"><placeName ref="https://pleiades.stoa.org/places/570067">Alpheus</placeName>, <placeName ref="https://pleiades.stoa.org/places/573200">Elidis</placeName>, qui per mare decurrens in <placeName ref="https://pleiades.stoa.org/places/981549">Siciliam</placeName>
-                  insulam, <placeName ref="https://pleiades.stoa.org/places/462101">Arethusae fonti</placeName> miscetur.</p>
+               <p n="4" xml:id="f4-alpheus"><placeName ref="https://pleiades.stoa.org/places/570067"
+                     >Alpheus</placeName>, <placeName ref="https://pleiades.stoa.org/places/573200"
+                     >Elidis</placeName>, qui per mare decurrens in <placeName
+                     ref="https://pleiades.stoa.org/places/981549">Siciliam</placeName> insulam,
+                     <placeName ref="https://pleiades.stoa.org/places/462101">Arethusae
+                     fonti</placeName> miscetur.</p>
                <note type="fontium" target="#f4-alpheus"><bibl><author>Verg.</author>
                      <title>geo.</title> 3.19</bibl> (<ref target="#Petr.">Petr.</ref>):
                      <quote>Alpheum</quote> + <bibl><title>aen.</title> 3.694ss.</bibl></note>
 
-               <p n="5" xml:id="f5-ascanius">Ascanius, <placeName ref="https://pleiades.stoa.org/places/511328">Mysiae</placeName>.</p>
+               <p n="5" xml:id="f5-ascanius">Ascanius, <placeName
+                     ref="https://pleiades.stoa.org/places/511328">Mysiae</placeName>.</p>
                <note type="fontium" target="#f5-ascanius"><bibl><author>Verg.</author>
                      <title>geo.</title> 3.269s</bibl> (<ref target="#Petr.">Petr.</ref>):
                      <quote>sonantem Ascanium</quote>; cf. <bibl><author>Serv.
                      Auct.</author></bibl><quote>Ascanius amnis Mysiae</quote></note>
 
-               <p n="6" xml:id="f6-achates"><placeName ref="https://pleiades.stoa.org/places/462065">Achates</placeName>, <placeName ref="https://pleiades.stoa.org/places/981549">Siciliae</placeName>, <app>
+               <p n="6" xml:id="f6-achates"><placeName ref="https://pleiades.stoa.org/places/462065"
+                     >Achates</placeName>, <placeName ref="https://pleiades.stoa.org/places/981549"
+                     >Siciliae</placeName>, <app>
                      <lem wit="#A" source="#Rie.">qui</lem>
                      <rdg wit="#V">ubi</rdg>
                   </app> pari nomine lapillos edit, unde gemmae fiunt.</p>
@@ -267,30 +281,45 @@
                      corresp="#comm-f8a-Avens">
                      <p n="8a" xml:id="f8a-Avens">
                         <app>
-                           <lem source="#Preller #Burs. #Rie. #Pue. #Mars."><placeName ref="https://pleiades.stoa.org/places/413047">Avens</placeName></lem>
+                           <lem source="#Preller #Burs. #Rie. #Pue. #Mars."><placeName
+                                 ref="https://pleiades.stoa.org/places/413047"
+                              >Avens</placeName></lem>
                            <rdg wit="#V" xml:id="f8a-rdg-aniens">Aniens</rdg>
                            <witDetail wit="#V" target="#f8a-rdg-aniens" corresp="#f8a-rdg-anien"
                               type="correction-original"/>
-                           <rdg wit="#Vrec" xml:id="f8a-rdg-anien"><placeName ref="https://pleiades.stoa.org/places/422834">Anien</placeName></rdg>
+                           <rdg wit="#Vrec" xml:id="f8a-rdg-anien"><placeName
+                                 ref="https://pleiades.stoa.org/places/422834"
+                              >Anien</placeName></rdg>
                         </app>, <app>
                            <!-- It may be worth the effort to add provisions for <add> and <del> in <lem type="emendation"> to show what has been added or deleted. Cf. Gelsomino's original, which has Vel<ino Sab>inorum. -->
-                           <lem source="#Gelsomino" type="#emendation"><placeName ref="https://pleiades.stoa.org/places/413372">lacui Velino</placeName> <orgName ref="https://pleiades.stoa.org/places/413291">Sabinorum</orgName></lem>
+                           <lem source="#Gelsomino" type="#emendation"><placeName
+                                 ref="https://pleiades.stoa.org/places/413372">lacui
+                                 Velino</placeName>
+                              <orgName ref="https://pleiades.stoa.org/places/413291"
+                                 >Sabinorum</orgName></lem>
                            <rdg wit="#V">lacus Velinorum</rdg>
                            <rdg wit="#Siml. #Hess. #Ober." source="#Burs. #Rie. #Mars.">lacui
                               Velinorum</rdg>
                            <rdg source="#Tschu. #Mars." xml:id="f8a-rdg-lacu-Velinorum">lacu
                               Velinorum</rdg>
                            <note target="#f8a-rdg-lacu-Velinorum">Mars. dubitanter</note>
-                           <rdg source="#Cluver.-It" xml:id="f8a-rdg-lacui-Velino"><placeName ref="https://pleiades.stoa.org/places/413372">lacui
-                              Velino</placeName></rdg>
+                           <rdg source="#Cluver.-It" xml:id="f8a-rdg-lacui-Velino"><placeName
+                                 ref="https://pleiades.stoa.org/places/413372">lacui
+                                 Velino</placeName></rdg>
                            <note target="#f8a-rdg-lacui-Velino">1.723</note>
                         </app> infunditur.</p>
                      <p n="8b" xml:id="f8b-Anien"><app>
                            <lem source="#Burs. #Rie. #Pue. #Mars." type="emendation"
-                              xml:id="f8b-lem-Anien"><placeName ref="https://pleiades.stoa.org/places/422834">Anien</placeName></lem>
-                        <rdg source="#Preller"><placeName ref="https://pleiades.stoa.org/places/422834">Anio</placeName></rdg>
+                              xml:id="f8b-lem-Anien"><placeName
+                                 ref="https://pleiades.stoa.org/places/422834"
+                              >Anien</placeName></lem>
+                           <rdg source="#Preller"><placeName
+                                 ref="https://pleiades.stoa.org/places/422834"
+                              >Anio</placeName></rdg>
                         </app>, <app>
-                           <lem source="#Burs. #Rie.">per Tiburtinorum fines in <placeName ref="https://pleiades.stoa.org/places/423080">Tiberim</placeName> fluit; <app>
+                           <lem source="#Burs. #Rie.">per Tiburtinorum fines in <placeName
+                                 ref="https://pleiades.stoa.org/places/423080">Tiberim</placeName>
+                              fluit; <app>
                                  <lem>ab Aniene filio</lem>
                                  <rdg source="#Burs." xml:id="f8b-rdg-ab-Anio">ab Anio</rdg>
                                  <note target="#f8b-rdg-ab-Anio">dubitanter coll. Serv. Auct., Diod.
@@ -298,14 +327,18 @@
                                  <rdg source="#Rie.">ab Anione</rdg>
                               </app> Apollonis</lem>
                            <rdg source="#Preller">ab Aniene filio Apollonis per Tiburtinorum fines
-                              in <placeName ref="https://pleiades.stoa.org/places/423080">Tiberim</placeName> fluit.</rdg>
+                              in <placeName ref="https://pleiades.stoa.org/places/423080"
+                                 >Tiberim</placeName> fluit.</rdg>
                         </app>.</p>
                   </lem>
                   <!-- End of lemma that divides original reading of V into two articles. -->
 
                   <!-- Original reading of V -->
-                  <rdg wit="#V"><placeName ref="https://pleiades.stoa.org/places/422834">Anien</placeName>. lacus velinorum infunditur per tiburtinorum fines. ab aniene
-                     filio apollinis. in <placeName ref="https://pleiades.stoa.org/places/423080">tiberim</placeName> fluit.</rdg>
+                  <rdg wit="#V"><placeName ref="https://pleiades.stoa.org/places/422834"
+                        >Anien</placeName>. lacus velinorum infunditur per tiburtinorum fines. ab
+                     aniene filio apollinis. in <placeName
+                        ref="https://pleiades.stoa.org/places/423080">tiberim</placeName>
+                     fluit.</rdg>
                </app>
 
                <!-- Entries in apparatus Fontium for paragraphs 8a and 8b. -->
@@ -319,40 +352,46 @@
                <note type="fontium" target="#f8b-Anien">fortasse <bibl><author>Verg.</author>
                      <title>aen.</title> 7.683</bibl> (<ref target="#Petr.">Petr.</ref>).</note>
 
-
-
-               <p n="9" xml:id="f9-Allia" corresp="#comm-f8b-Anien"><placeName ref="https://pleiades.stoa.org/places/438670">Allia</placeName>, <placeName ref="https://pleiades.stoa.org/places/18271457">Salaria via</placeName> ad mil. XIIII
-                  a <placeName ref="https://pleiades.stoa.org/places/423025">Roma</placeName>, ubi Galli victoria sunt potiti de Romanis.</p>
-
+               <p n="9" xml:id="f9-Allia" corresp="#comm-f8b-Anien"><placeName
+                     ref="https://pleiades.stoa.org/places/438670">Allia</placeName>, <placeName
+                     ref="https://pleiades.stoa.org/places/18271457">Salaria via</placeName> ad mil.
+                  XIIII a <placeName ref="https://pleiades.stoa.org/places/423025">Roma</placeName>,
+                  ubi Galli victoria sunt potiti de Romanis.</p>
                <note type="fontium" target="#f9-Allia"><bibl><author>Verg.</author>
                      <title>aen.</title> 7.717</bibl> (<ref target="#Petr.">Petr.</ref>):
                      <quote>infaustum … Allia nomen</quote> cum scholio deperdito.</note>
 
-               <p n="10" xml:id="f10-Araxes"><placeName ref="https://pleiades.stoa.org/places/884118">Araxes</placeName>, <placeName ref="https://pleiades.stoa.org/places/981507">Armeniae</placeName>, <app>
+               <p n="10" xml:id="f10-Araxes"><placeName
+                     ref="https://pleiades.stoa.org/places/884118">Araxes</placeName>, <placeName
+                     ref="https://pleiades.stoa.org/places/981507">Armeniae</placeName>, <app>
                      <lem><sic>Arabiam</sic></lem>
                      <rdg wit="#A #F #Tschu. #Siml. #Hess. #Ober." source="#Burs. #Rie."
                         >Armeniam</rdg>
-                  <rdg source="#Burs." xml:id="f10-rdg-Albaniam"><placeName ref="https://pleiades.stoa.org/places/863731">Albaniam</placeName></rdg>
+                     <rdg source="#Burs." xml:id="f10-rdg-Albaniam"><placeName
+                           ref="https://pleiades.stoa.org/places/863731">Albaniam</placeName></rdg>
                      <note target="#f10-rdg-Albaniam">dubitanter</note>
-                  <rdg source="#Mars." xml:id="f10-rdg-Amardos"><placeName ref="https://pleiades.stoa.org/places/884115">Amardos</placeName></rdg>
+                     <rdg source="#Mars." xml:id="f10-rdg-Amardos"><placeName
+                           ref="https://pleiades.stoa.org/places/884115">Amardos</placeName></rdg>
                      <note target="#f10-rdg-Amardos">dubitanter</note>
                   </app> a Medis dividit.</p>
-
                <note type="fontium" target="#f10-Araxes"><bibl><author>Verg.</author>
                      <title>aen.</title> 8.728</bibl> (<ref target="#Petr.">Petr.</ref>); cf.
                         <bibl><author>Serv.</author></bibl>
                   <quote>A. fluvius Armeniae</quote></note>
 
                <p n="11" xml:id="f11-Atesis"><app>
-                  <lem><placeName ref="https://pleiades.stoa.org/places/393383">Atesis</placeName></lem>
-                  <rdg wit="#R #A #F"><placeName ref="https://pleiades.stoa.org/places/393383">Athesis</placeName></rdg>
+                     <lem><placeName ref="https://pleiades.stoa.org/places/393383"
+                           >Atesis</placeName></lem>
+                     <rdg wit="#R #A #F"><placeName ref="https://pleiades.stoa.org/places/393383"
+                           >Athesis</placeName></rdg>
                      <wit>edd. perique ante <ref target="#Burs.">Burs.</ref>.</wit>
                   </app>, Veronensium, <app>
-                     <lem>in <placeName ref="https://pleiades.stoa.org/places/393469">Padum</placeName></lem>
-                     <rdg source="#Tschu." xml:id="f11-rdg-in-paludes-Padi">in paludes <placeName ref="https://pleiades.stoa.org/places/393469">Padi</placeName></rdg>
+                     <lem>in <placeName ref="https://pleiades.stoa.org/places/393469"
+                           >Padum</placeName></lem>
+                     <rdg source="#Tschu." xml:id="f11-rdg-in-paludes-Padi">in paludes <placeName
+                           ref="https://pleiades.stoa.org/places/393469">Padi</placeName></rdg>
                      <note target="#f11-rdg-in-paludes-Padi">sed cf. Serv. Auct.</note>
                   </app> decurrit.</p>
-
                <note type="fontium" target="#f11-Atesis"><bibl><author>Verg.</author>
                      <title>aen.</title> 9.680</bibl> (<ref target="#Petr.">Petr.</ref>) <quote>Padi
                      ripis, Athesim</quote>; cf. <bibl><author>Serv. Auct.</author> ad. v.
@@ -361,15 +400,19 @@
                      cadens</quote>; <bibl><author>Plin.</author>
                      <title>n.h.</title> 3.16.121</bibl>.</note>
 
-               <p n="12" xml:id="f12-Amasenus"><placeName ref="https://pleiades.stoa.org/places/432671">Amasenus</placeName>, Privernatium.</p>
-
+               <p n="12" xml:id="f12-Amasenus"><placeName
+                     ref="https://pleiades.stoa.org/places/432671">Amasenus</placeName>,
+                  Privernatium.</p>
                <note type="fontium" target="#f12-Amasenus"><bibl><author>Verg.</author>
                      <title>aen.</title> 7.685</bibl> (<ref target="#Petr.">Petr.</ref>), vel 11.547
                      (<ref target="#Petr.">Petr.</ref>); cf. <bibl><author>Serv.
                      Auct.</author></bibl>
                   <quote>A. Apuliae fluvius est iuxta Canusium</quote>.</note>
 
-               <p n="13"><placeName ref="https://pleiades.stoa.org/places/442485">Aufidus</placeName>, <placeName ref="https://pleiades.stoa.org/places/442469">Apuliae</placeName>, proximus <placeName ref="https://pleiades.stoa.org/places/442525">Canusio</placeName>.</p>
+               <p n="13"><placeName ref="https://pleiades.stoa.org/places/442485"
+                     >Aufidus</placeName>, <placeName ref="https://pleiades.stoa.org/places/442469"
+                     >Apuliae</placeName>, proximus <placeName
+                     ref="https://pleiades.stoa.org/places/442525">Canusio</placeName>.</p>
             </div>
 
             <!-- Textual Commentary -->
